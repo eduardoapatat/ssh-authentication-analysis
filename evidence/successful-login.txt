@@ -1,0 +1,2 @@
+Sep 10 23:43:15 kali sshd-session[2738]: Accepted password for labuser from 127.0.0.1 port 37816 ssh2
+Sep 10 23:43:15 kali sshd-session[2738]: pam_unix(sshd:session): session opened for user labuser(uid=1001) by labuser(uid=0)
