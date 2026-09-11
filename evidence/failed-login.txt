@@ -1,0 +1,9 @@
+Sep 10 22:44:15 kali unix_chkpwd[41343]: password check failed for user (labuser)
+Sep 10 22:44:15 kali sshd-session[41325]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labus>
+Sep 10 22:44:18 kali sshd-session[41325]: Failed password for labuser from 127.0.0.1 port 52812 ssh2
+Sep 10 22:44:22 kali sshd-session[41325]: Failed password for labuser from 127.0.0.1 port 52812 ssh2
+Sep 10 22:44:23 kali sshd-session[41325]: Failed password for labuser from 127.0.0.1 port 52812 ssh2
+Sep 10 22:44:23 kali sshd-session[41325]: Connection closed by authenticating user labuser 127.0.0.1 port 52812 [preauth]
+Sep 10 22:44:23 kali sshd-session[41325]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Sep 10 22:45:07 kali sshd-session[41713]: Accepted password for labuser from 127.0.0.1 port 51038 ssh2
+Sep 10 22:45:07 kali sshd-session[41713]: pam_unix(sshd:session): session opened for user labuser(uid=1001) by labuser(uid=0)
